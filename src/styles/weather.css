@@ -1,0 +1,147 @@
+.weather__wrapper{
+    width: 1200px;
+    height: 600px;
+    position: relative;
+}
+
+.fon{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 14px 7px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 14px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 14px 7px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p{
+    font-size: 20pt;
+    margin-left: 40px;
+}
+
+.year{
+    margin-right: 40px;
+    font-size: 32pt;
+}
+
+main{
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+}
+
+.main-info{
+    width: 50%;
+    height: 250px;
+    background-color: rgba(65, 65, 65, 0.803);
+}
+
+.day{
+    width: 30%;
+    height: 250px;
+    background-color: rgba(65, 65, 65, 0.803);
+    border-left: 2px solid rgba(110, 110, 110, 0.806);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citys{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.city{
+    padding: 0 15px;
+    width: 100px;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.city:hover{
+    background-color: gray;
+}
+
+.active{
+    background-color: gray;
+}
+
+.city p {
+    font-size: 16pt;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top .icon{
+    margin-top: 30px;
+    font-size: 24pt;
+}
+
+.bottom{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.temperature{
+    margin-top: 10px;
+}
+
+.date{
+    margin-top: 10px;
+    font-size: 14pt;
+}
+
+.icon-day, .icon-night{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-day .icon i {
+    font-size: 20pt;
+}
+
+.icon-night .icon i {
+    font-size: 20pt;
+}
+
+.phrase{
+    margin-top: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.text-info{
+    padding: 0 10px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    font-size: 24pt;
+
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+}
